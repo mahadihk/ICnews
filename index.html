@@ -19,41 +19,76 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg shadow bg-white mt-4">
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-12 col-md-4">
-              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon border-0 bg-orange rounded-circle"></span>
-              </button>     
-
-              <form class="d-flex nav-form d-none d-lg-block d-xl-block" role="search">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search Here" aria-label="Search" aria-describedby="button-addon2" />
-                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </button>
-                </div>
-              </form>
-            </div>
-
-            <div class="col-12 col-md-5 text-center">
-              <a class="navbar-brand" href="#">
-                <img
-                  class="img-fluid"
-                  src="./asset/images/logo.png"
-                  alt="IC Magazine Logo" />
-              </a>
-            </div>
-
-            <div class="col-12 col-md-3">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">                 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Subscribe</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Cart <span class="badge badge-danger">(0)</span></a>
-                </li>
-              </ul>
-            </div>               
+          <a class="navbar-brand" href="#">
+            <img
+              class="img-fluid"
+              src="./asset/images/logo.png"
+              alt="IC Magazine Logo" />
+          </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon border-0 bg-orange rounded-circle"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Business</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Health</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">World</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Culture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Subscribe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cart (0)</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search Here" aria-label="Search" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                        </form> -->
+            <form class="d-flex nav-form" role="search">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Here"
+                  aria-label="Search"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  id="button-addon2"
+                  style="border: none; background-color: transparent"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </nav>
     </div>
@@ -107,19 +142,24 @@
                 </p>
                 <div class="row">
 
-                  <div class="col-8 border-end">
+                  <div class="col-7">
                     <p class="card-text my-3 px-3">
                       Author Carla Marrie talks about her new book in an interview. Read exclusive interview only on IC News
                     </p>
                   </div>
 
-                  <div class="col-4">
+                  <div class="col-5">
                     <div class="row">
+                      <div class="col-1">
+                        <div class="d-flex" style="height: 70px;">
+                        <div class="vr"></div>
+                      </div>
+                      </div>
                       <div class="col-auto">
                         <img src="./asset/images/Editor.jpg" class="img-fluid rounded-circle" id="hero-author" alt="">                    
                       </div>
                       <div class="col">
-                        <h4>Michael Brown</h4>
+                        <h4>Nuria Garcia</h4>
                         <span>April 27, 2025</span>
                       </div>
                     </div>
@@ -226,7 +266,7 @@
     <!-- Hero Section : End  -->
 
 
-      <!-- Technology : Start -->
+      <!-- Latest News : Start -->
     <div class="container-fluid">
       <div class="container">
         <div class="row">
@@ -235,7 +275,7 @@
           </div>
           <div class="col-3 mt-5 pt-5">
             <p class="float-end">
-              <a class="fs-5 text-dark text-decoration-none" href="#"
+              <a class="fs-5 soft-orange text-decoration-none" href="#"
                 >view all <i class="fa-solid fa-arrow-right"></i
               ></a>
             </p>
@@ -355,7 +395,98 @@
         </div>
       </div>
     </div>
-    <!-- Technology : End -->
+    <!-- Latest News : End -->
+
+    <!-- Latest Block : Start -->
+    <div class="container-fluid bg-orange latest-block position-relative">
+      <div class="col-12 text-bg position-absolute start-0 overflow-hidden text-lb-bg">
+        <h2>*LATEST*LATEST*LATEST*LATEST*LATEST*LATEST*LATEST*LATEST*</h2>
+      </div>
+      <div class="container py-5">
+        <div class="row p-5"">
+          <div class="col-12 col-md-5 text-light pt-5 text-lb position-relative ">
+            <h3 class="mt-5 z-1">Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h3>
+            <hr>
+            <p>
+              Smart city initiatives are leveraging AI, IoT, and data analytics to create sustainable  spaces.
+            </p>
+
+            <div class="col z-1">
+              <div class="row">
+                <div class="col-auto">
+                  <img src="./asset/images/Publisher.jpg" class="img-fluid rounded-circle z-3" id="hero-author" alt="">                    
+                </div>
+                <div class="col z-1">
+                  <h4>Michael Brown</h4>
+                  <span>April 27, 2025</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-7 pe-5 position-relative">
+            <img class="img-fluid" src="./asset/images/Lucianne.jpg" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest Block : End -->
+
+    <!-- Staff Writer : Start -->
+    <div class="container">
+      <div class="row py-5">
+
+        <div class="col-6 col-md-3">
+          <div class="card mb-3 border-0 bg-transparent">
+            <img src="/asset/images/Publisher.jpg" class="card-img-top" alt="...">
+            <div class="card-body border-0 bg-transparent px-0">
+              <h5 class="card-title">Ethan Kaiser</h5>
+              <p class="card-text">
+                Senior Journalist
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card mb-3 border-0 bg-transparent">
+            <img src="/asset/images/Content-writer.jpg" class="card-img-top" alt="...">
+            <div class="card-body border-0 bg-transparent px-0">
+              <h5 class="card-title">Safina Maryam</h5>
+              <p class="card-text">
+                Feature Writer
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card mb-3 border-0 bg-transparent">
+            <img src="/asset/images/reporter.jpg" class="card-img-top" alt="...">
+            <div class="card-body border-0 bg-transparent px-0">
+              <h5 class="card-title">Aiden Wisdom</h5>
+              <p class="card-text">
+                Crime Reporter
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card mb-3 border-0 bg-transparent">
+            <img src="/asset/images/Editor.jpg" class="card-img-top" alt="...">
+            <div class="card-body border-0 bg-transparent px-0">
+              <h5 class="card-title">Jessica Abigali</h5>
+              <p class="card-text">
+                Senior Journalist
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Staff Writer : End -->
 
 
     <!-- Editorial : Start -->

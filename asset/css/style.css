@@ -1,6 +1,6 @@
 /* Custom Colors */
 :root {
-  --orange: #f08f64;
+  --orange: #cf412b;
 }
 
 #button-addon2 {
@@ -11,6 +11,24 @@
 #hero-author {
   width: 45px;
   height: 45px;
+}
+.latest-block .text-bg {
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.latest-block .text-bg h2 {
+  font-size: 7.5rem;
+  color: rgba(49, 48, 48, 0.322);
+}
+
+.latest-block .text-lb {
+  z-index: 5;
+}
+
+.text-lb-bg {
+  top: 10%;
 }
 
 /* ------------------- */
